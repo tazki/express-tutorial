@@ -8,6 +8,7 @@ const loggingMiddleware = (req, res, next) => {
     next();
 };
 
+// Middleware
 const resolveIndexByUserId = (req, res, next) => {
     const {
         params: { id } 
